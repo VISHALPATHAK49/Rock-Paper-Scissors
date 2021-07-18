@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@700&display=swap');
+
+*{
+    background-color: #1A2648;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 400px;
+    height: 120px;
+    border: 2px solid rgb(90, 88, 88);
+    border-radius:10px;
+    position: absolute;
+    left:30%;
+    display: flex;
+    flex-direction: row;
+    top: 40px;
+}
+.heading{
+    width:150px;
+    height:120px;
+    padding: 10px ;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.heading h3{
+    color: #fff;
+    font-family: 'Tourney', cursive;
+    font-size: 1.8rem;
+    position: relative;
+    top: -25px;
+}
+.score{
+    width: 100px;
+    height:100px;
+    background: #fff;
+    position: relative;
+   
+    border-radius: 10px;
+}
+.score p{
+    background: #fff;
+    font-size:0.8rem;
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    color: rgb(90, 88, 88);
+}
+.score h1{
+    background: #fff;
+    text-align: center;
+    font-family: 'Tourney', cursive;
+
+}
+#computer-score{
+    top: 10px;
+    left: 20px;
+}
+#user-score{
+    top: 10px;
+    left: 40px;
+}
+.main-content{
+    width:100%;
+    height: 350px;
+    margin-top: 200px;
+}
+.circle{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.circle img{
+    background: #fff;
+}
+#r{
+    left: 400px;
+    border: 10px #4D68ED solid;
+}
+#p{
+    left: 600px;
+    top: -120px;
+    border: 10px #E79E2A solid;
+}
+#s{
+    left: 520px;
+    top: -50px;
+    border: 10px #D7425A solid;
+
+}
+.result{
+    width:100%;
+    text-align: center;
+    font-size: 2rem;
+    color:#FFFF;
+    font-family: 'Tourney', cursive;
+
+}
